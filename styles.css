@@ -1,0 +1,141 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+h1,h2,h3,h4,h5,h6, body{
+  font-family: Montserrat,sans-serif;
+}
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  color: #fff;
+}
+h3{
+  font-family: cursive;
+}
+p{
+  color: #8f8f8f;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+}
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.btn-dark{
+  padding: 7px 40px;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.carousel.item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line height: 1.5;
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+#cta{
+  background: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+#footer{
+  padding: 7% 15%;
+}
+.social-icons{
+  width: 5%;
+  height: 5%;
+  padding: 10px;
+  cursor: pointer;
+}
+@media (max-width: 1024px;) {
+  #title{
+    text-align:center;
+  }
+  .title-img{
+    position: relative;
+    transform: rotate(0);
+  }
+}
